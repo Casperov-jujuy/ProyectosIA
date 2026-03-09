@@ -1,0 +1,43 @@
+# ─── Variables de entorno (NUNCA subir al repo) ───────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ─── Python / Backend ─────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+venv/
+.venv/
+env/
+*.egg-info/
+dist/
+build/
+*.so
+
+# Archivos de test / output temporales
+backend/test_output*.pdf
+backend/test_output*.txt
+backend/harvard_*.pdf
+backend/*.pdf
+
+# ─── Node.js / Frontend ───────────────────────────────────────────────────────
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/*.tsbuildinfo
+frontend/next-env.d.ts
+
+# ─── Sistema Operativo ────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── IDEs ─────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo

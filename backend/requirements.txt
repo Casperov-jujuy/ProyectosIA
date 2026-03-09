@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+python-multipart
+google-genai
+pdfminer.six
+fpdf2
+python-dotenv
